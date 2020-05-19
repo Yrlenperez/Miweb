@@ -194,6 +194,13 @@
 
     if ($('.portfolio-one__zoom').length) {
         $('.portfolio-one__zoom').on('click', function (e) {
+            //console.log(e);
+            //console.log(e.toElement.offsetParent.previousElementSibling.alt);
+            var ruta = e.toElement.offsetParent.previousElementSibling.alt;
+            var url = e.toElement.offsetParent.previousElementSibling.currentSrc;
+            url = url.slice(-17);
+            document.querySelector('#portafolio-img').setAttribute( 'src', `${url}`);
+            document.querySelector('#ruta-web').setAttribute( 'href', `${ruta}`);
             $('.portfolio-popup').addClass('active');
             e.preventDefault();
         });
