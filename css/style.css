@@ -1040,8 +1040,8 @@ a:visited {
 
 .banner-one .container {
   position: relative;
-  padding-top: 305px;
-  padding-bottom: 305px;
+  padding-top: 130px;
+  padding-bottom: 200px;
 }
 
 .banner-one__slide {
@@ -3731,6 +3731,10 @@ a:visited {
     padding-left: 20px;
     margin-bottom: 30px;
   }
+  .mdq{
+    display: block !important;
+    margin-bottom: 10px !important;
+  }
 }
 
 .portfolio-popup .thm-btn {
@@ -4496,4 +4500,20 @@ a:visited {
 .home-two .map-one {
   padding: 0;
   height: 524px;
+}
+
+.logo{
+
+    font-family: 'Rage Italic';
+    font-size: 59px;
+    color: #ed2c41;
+    letter-spacing: -0.08em;
+    line-height: 140px;
+    margin: 0;
+    -webkit-animation-duration: 2s;
+    animation-duration: 2s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+    -webkit-backface-visibility: visible !important;
+    backface-visibility: visible !important;
 }
